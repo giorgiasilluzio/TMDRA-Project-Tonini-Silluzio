@@ -1,0 +1,309 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://giorgiasilluzio.github.io/TMDRA-Project-Tonini-Silluzio/manifests/TMDRA-Manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Emotions",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "In this manifest you can find images related to the labels of an emotion detection task",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Vittoria Tonini e Giorgia Silluzio",
+  "sequences" : [ {
+    "@id" : "http://6b48cf63-46f1-4f4e-9062-d99ca6f0cc13",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://fb16cc64-e3e3-4ec9-83e8-c7f6eae0f8c1",
+      "@type" : "sc:Canvas",
+      "label" : "Anticipation",
+      "height" : 3456,
+      "width" : 5184,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://0f1d651c-0e3c-48a2-bf5b-ac9946b0a788",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/anticipation_202403/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/anticipation_202403",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3456,
+          "width" : 5184
+        },
+        "on" : "http://fb16cc64-e3e3-4ec9-83e8-c7f6eae0f8c1"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://9c60f7c9-fd57-4664-a0bb-eecab9ae38e0",
+      "@type" : "sc:Canvas",
+      "label" : "Trust",
+      "height" : 3307,
+      "width" : 5291,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://3c50b767-9067-48e3-9a4b-911207c112b5",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/trust_202403/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/trust_202403",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3307,
+          "width" : 5291
+        },
+        "on" : "http://9c60f7c9-fd57-4664-a0bb-eecab9ae38e0"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://c02a4e5b-99a8-497e-9c23-808156f9e196",
+      "@type" : "sc:Canvas",
+      "label" : "Surprise",
+      "height" : 3554,
+      "width" : 5331,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://688939a3-b96c-4ff2-81a8-a4836f4cc83e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/surprise_202403/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/surprise_202403",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3554,
+          "width" : 5331
+        },
+        "on" : "http://c02a4e5b-99a8-497e-9c23-808156f9e196"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://756638d8-6921-45c9-ae50-9258049a66f8",
+      "@type" : "sc:Canvas",
+      "label" : "Sadness",
+      "height" : 2205,
+      "width" : 1866,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://a7395c04-3401-4a79-a01f-15c01980a102",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/sadness_202403/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/sadness_202403",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2205,
+          "width" : 1866
+        },
+        "on" : "http://756638d8-6921-45c9-ae50-9258049a66f8"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://fd9f32c0-845e-4e6e-9fe4-7a6df1d9fabf",
+      "@type" : "sc:Canvas",
+      "label" : "Pessimism",
+      "height" : 3200,
+      "width" : 4800,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://5b5c961a-cb63-44a4-bd88-02d3cfb02b70",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/pessimism_202403/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/pessimism_202403",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3200,
+          "width" : 4800
+        },
+        "on" : "http://fd9f32c0-845e-4e6e-9fe4-7a6df1d9fabf"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://5b8cef90-22b1-4794-9d40-5088bb878afe",
+      "@type" : "sc:Canvas",
+      "label" : "Optimism",
+      "height" : 4997,
+      "width" : 7500,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://9e5ff15e-387b-4df7-b79e-7f3f9e150f80",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/optimism_202403/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/optimism_202403",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 4997,
+          "width" : 7500
+        },
+        "on" : "http://5b8cef90-22b1-4794-9d40-5088bb878afe"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://57337174-56af-4c35-b6e8-fbc91f30889f",
+      "@type" : "sc:Canvas",
+      "label" : "Love",
+      "height" : 5437,
+      "width" : 3625,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://aac427f6-a84e-4e67-8812-ec57e8289f99",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/love_20240329/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/love_20240329",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 5437,
+          "width" : 3625
+        },
+        "on" : "http://57337174-56af-4c35-b6e8-fbc91f30889f"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://345c7d49-0231-4f5b-a555-5ceb3153a9e8",
+      "@type" : "sc:Canvas",
+      "label" : "Joy",
+      "height" : 5168,
+      "width" : 3445,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://9eb0c26f-0f0c-4cde-823a-e953f9031e58",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/joy_20240329/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/joy_20240329",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 5168,
+          "width" : 3445
+        },
+        "on" : "http://345c7d49-0231-4f5b-a555-5ceb3153a9e8"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://2b0b7776-fcc3-4154-9f2d-65e2c6d8636d",
+      "@type" : "sc:Canvas",
+      "label" : "Fear",
+      "height" : 3240,
+      "width" : 4236,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://15b0e8ad-eac5-4d8b-85fb-ec54a1fe8f6e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/fear_20240329/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/fear_20240329",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3240,
+          "width" : 4236
+        },
+        "on" : "http://2b0b7776-fcc3-4154-9f2d-65e2c6d8636d"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://1d1f4a5e-e860-4af9-86bd-780a9e3521f0",
+      "@type" : "sc:Canvas",
+      "label" : "Disgust",
+      "height" : 8660,
+      "width" : 6928,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://a3c304fd-db44-45f4-a783-f406520e2683",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/disgust/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/disgust",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 8660,
+          "width" : 6928
+        },
+        "on" : "http://1d1f4a5e-e860-4af9-86bd-780a9e3521f0"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://ef932239-dc5d-4afd-9b7e-865dc252f8b2",
+      "@type" : "sc:Canvas",
+      "label" : "Anger",
+      "height" : 2635,
+      "width" : 3953,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://8e686b62-5c38-41de-9c31-19421d43635e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/anger_20240329_1624/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/anger_20240329_1624",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2635,
+          "width" : 3953
+        },
+        "on" : "http://ef932239-dc5d-4afd-9b7e-865dc252f8b2"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
